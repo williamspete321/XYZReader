@@ -1,0 +1,53 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/cardview_margin_horizontal"
+    android:layout_marginRight="@dimen/cardview_margin_horizontal"
+    android:layout_marginTop="@dimen/cardview_margin_vertical"
+    android:layout_marginBottom="@dimen/cardview_margin_vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    android:background="@color/theme_light_grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--suppress AndroidLintContentDescription -->
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/thumbnail_width"
+            android:layout_height="@dimen/thumbnail_height"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnail"
+            android:paddingLeft="@dimen/title_textview_padding_horizontal"
+            android:paddingTop="@dimen/title_textview_padding_vertical"
+            android:paddingRight="@dimen/title_textview_padding_horizontal"
+            android:paddingBottom="@dimen/title_textview_padding_bottom"
+            android:textColor="@color/theme_dark_grey"
+            android:ellipsize="end"
+            android:maxLines="4" />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/article_title"
+            android:paddingLeft="@dimen/subtitle_textview_padding_horizontal"
+            android:paddingRight="@dimen/subtitle_textview_padding_horizontal"
+            android:paddingBottom="@dimen/subtitle_textview_padding_vertical"
+            android:textColor="#6000"
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

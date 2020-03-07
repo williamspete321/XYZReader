@@ -1,0 +1,27 @@
+<resources>
+    <!-- detail -->
+    <dimen name="toolbar_title_text_size">32sp</dimen>
+
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">22sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+    
+    <dimen name="recyclerview_top_padding">72dp</dimen>
+
+    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+    <dimen name="cardview_margin_vertical">4dp</dimen>
+    <dimen name="cardview_margin_horizontal">4dp</dimen>
+
+    <dimen name="thumbnail_width">200dp</dimen>
+    <dimen name="thumbnail_height">200dp</dimen>
+
+    <dimen name="title_textview_padding_vertical">16dp</dimen>
+    <dimen name="title_textview_padding_horizontal">16dp</dimen>
+    <dimen name="title_textview_padding_bottom">4dp</dimen>
+
+    <dimen name="subtitle_textview_padding_vertical">16dp</dimen>
+    <dimen name="subtitle_textview_padding_horizontal">16dp</dimen>
+</resources>
