@@ -9,7 +9,7 @@
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground"
-    android:background="@color/theme_light_grey">
+    android:background="@color/colorLightGrey">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
             android:paddingTop="@dimen/title_textview_padding_vertical"
             android:paddingRight="@dimen/title_textview_padding_horizontal"
             android:paddingBottom="@dimen/title_textview_padding_bottom"
-            android:textColor="@color/theme_dark_grey"
+            android:textColor="@color/colorDarkGrey"
             android:ellipsize="end"
             android:maxLines="4" />
 

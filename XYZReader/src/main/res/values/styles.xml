@@ -17,19 +17,19 @@
 
 <resources>
 
-    <style name="MyTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/colorDarkGrey</item>
     </style>
     
-    <style name="Toolbar.TitleText"
-        parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/theme_dark_grey</item>
+    <style name="Toolbar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
     </style>
-    <!--
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
-    -->
 
 </resources>
