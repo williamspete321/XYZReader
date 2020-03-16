@@ -8,8 +8,7 @@
     android:layout_marginBottom="@dimen/cardview_margin_vertical"
     android:clickable="true"
     android:focusable="true"
-    android:foreground="?selectableItemBackground"
-    android:background="@color/colorLightGrey">
+    android:foreground="?selectableItemBackground">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,16 +17,18 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="@dimen/thumbnail_width"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/thumbnail_height"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_centerHorizontal="true"/>
 
         <TextView
             android:id="@+id/article_title"
             style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/thumbnail"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
             android:paddingLeft="@dimen/title_textview_padding_horizontal"
             android:paddingTop="@dimen/title_textview_padding_vertical"
             android:paddingRight="@dimen/title_textview_padding_horizontal"
@@ -39,9 +40,11 @@
         <TextView
             android:id="@+id/article_subtitle"
             style="@style/TextAppearance.AppCompat.Body1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/article_title"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
             android:paddingLeft="@dimen/subtitle_textview_padding_horizontal"
             android:paddingRight="@dimen/subtitle_textview_padding_horizontal"
             android:paddingBottom="@dimen/subtitle_textview_padding_vertical"

@@ -21,6 +21,7 @@
     <color name="colorPrimary">#FDD835</color>
     <color name="colorPrimaryDark">#C6A700</color>
     <color name="colorPrimaryLight">#FAED99</color>
+    <color name="colorPrimaryVeryLight">#FCF4C1</color>
     <color name="colorAccent">#355AFD</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorDarkGrey">#3B3935</color>
